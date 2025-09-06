@@ -30,10 +30,9 @@ To install and use this extension:
     ```bash
     git clone https://github.com/D3One/Autofill-web-chrome.git
     ```
-    *(Replace `YOUR_USERNAME` with your actual GitHub username)*
 
 2.  **Open Chrome Extensions Page**
-    Navigate to `chrome://extensions/` in your browser.
+    Navigate to `chrome://extensions/` in your web browser (chrome only).
 
 3.  **Enable Developer Mode**
     Toggle the switch labeled **"Developer mode"** in the top right corner.
@@ -99,7 +98,7 @@ chrome-form-filler/
 
 ## 👨‍💻 Author
 
-**Your Name** / [Ivan Piskunov]
+**Name**  Ivan Piskunov
 *   GitHub: [@D3One](https://github.com/D3One)
 *   Idea refined and code co-created with the assistance of R1, a large language model.
 
