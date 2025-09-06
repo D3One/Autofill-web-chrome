@@ -1,10 +1,10 @@
 document.getElementById('fillButton').addEventListener('click', async () => {
-  // Получаем активную вкладку
+  // Get the tab
   let [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
 
-  // Отправляем сообщение в content script на этой вкладке
+  // Create message to content script on the tab
   chrome.tabs.sendMessage(tab.id, { action: "fillForm" }, (response) => {
-    // Закрываем popup после нажатия
+    // ЗClose popup after click
     window.close();
   });
 });
