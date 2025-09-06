@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Form Filler Assistant",
   "version": "1.0",
-  "description": "Автоматически заполняет формы на веб-сайтах.",
+  "description": "Autofill webpage forms (Chrome).",
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
@@ -10,7 +10,7 @@
   },
   "action": {
     "default_popup": "popup.html",
-    "default_title": "Настроить автозаполнение"
+    "default_title": "Tweak autofill"
   },
   "permissions": [
     "storage",
